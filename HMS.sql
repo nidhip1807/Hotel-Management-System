@@ -10,7 +10,6 @@ select * from room;
 
 create table employee(name varchar(20), age varchar(20), gender varchar(20), job varchar(20), salary varchar(20), phone varchar(20), sin varchar(20), email varchar(20));
 SET SQL_SAFE_UPDATES = 0;
-DELETE FROM employee WHERE age = 25;
 
 create table driver(name varchar(20), age varchar(20), gender varchar(20), company varchar(20), carname varchar(20), available varchar(20), location varchar(20));
 select * from driver;
